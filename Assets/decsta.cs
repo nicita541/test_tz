@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class decsta : MonoBehaviour
 {
     int first = 0, second = 0;
+    // хранение матрицы
     private static int[,] matrixAdjacency = { {0,3,0,0,0,2},
                                               {3,0,8,4,0,6},
                                               {0,8,0,2,4,0},
@@ -18,6 +19,7 @@ public class decsta : MonoBehaviour
     private int[] dict = { 100, 100, 100, 100, 100, 100 };
     public Text[] text = new Text[3];
 
+    //поиск кротчайшего пути
     public void decstaResult()
     {
 
@@ -58,7 +60,6 @@ public class decsta : MonoBehaviour
 
     }
     // поиск пути
-    //что то еще
     private string tracer(int b)
     {
         string mass = "";
