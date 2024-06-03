@@ -58,6 +58,7 @@ public class decsta : MonoBehaviour
 
     }
     // поиск пути
+    //что то еще
     private string tracer(int b)
     {
         string mass = "";
