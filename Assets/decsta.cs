@@ -54,10 +54,11 @@ public class decsta : MonoBehaviour
 
         text[2].text = dict[b].ToString();
 
-            Debug.Log(traser(b));
+            Debug.Log(tracer(b));
 
     }
-    private string traser(int b)
+    // поиск пути
+    private string tracer(int b)
     {
         string mass = "";
         int tras = 100;
